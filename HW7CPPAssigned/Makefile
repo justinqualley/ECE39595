@@ -6,7 +6,7 @@ CC = g++
 INCLUDE = 
 LIBS = 
 CFLAGS = -g -Werror -std=c++11
-EXECUTABLE = hw7
+EXECUTABLE = 
 COMMANDLINE =
 
 # .PHONY : run
@@ -19,7 +19,7 @@ all : $(EXECUTABLE)
 $(EXECUTABLE) :  $(OBJS)
 	$(CC) $(CFLAGS) -o $(EXECUTABLE) $(OBJS) $(INCLUDE) $(LIBS)
 	rm ${OBJS}
-	./hw7
+	./a.out
 .cpp.o :
 	$(CC) $(CFLAGS) -c $< $(INCLUDE) $(LIBS)
 
