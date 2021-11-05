@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "memory": "cpp",
+        "new": "cpp"
+    }
+}
