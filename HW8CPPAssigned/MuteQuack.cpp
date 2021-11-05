@@ -4,3 +4,4 @@
 void MuteQuack::quack( ) {
    std::cout << ". . ." << std::endl;
 }
+MuteQuack::~MuteQuack(){}

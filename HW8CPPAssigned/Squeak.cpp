@@ -4,3 +4,4 @@
 void Squeak::quack( ) {
    std::cout << "Squeak!" << std::endl;
 }
+Squeak::~Squeak(){}

@@ -11,3 +11,4 @@ RedHeadDuck::RedHeadDuck( ) {
 void RedHeadDuck::display( ) {
    std::cout << "I’m a real redheaded duck" << std::endl;
 }
+RedHeadDuck::~RedHeadDuck(){}

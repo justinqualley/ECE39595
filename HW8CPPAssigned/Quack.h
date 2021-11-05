@@ -5,5 +5,6 @@
 class Quack : public QuackBehavior {
 public:
    void quack( );
+   virtual ~Quack();
 };
 #endif /* QUACK_H_ */

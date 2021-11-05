@@ -8,5 +8,6 @@ class RedHeadDuck : public Duck {
 public:
    RedHeadDuck( );
    void display( );
+   virtual ~RedHeadDuck();
 };
 #endif /* REDHEADDUCK_H_ */

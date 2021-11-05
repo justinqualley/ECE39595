@@ -5,5 +5,6 @@
 class FlyNoWay : public FlyBehavior {
 public:
    void fly( );
+   virtual ~FlyNoWay();
 };
 #endif /* FLYNOWAY_H_ */

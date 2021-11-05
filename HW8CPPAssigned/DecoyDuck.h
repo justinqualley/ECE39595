@@ -6,5 +6,6 @@ class DecoyDuck : public Duck {
 public:
    DecoyDuck( );
    void display( );
+   virtual ~DecoyDuck();
 };
 #endif /* DECOYDUCK_H_ */

@@ -4,3 +4,4 @@
 void FlyNoWay::fly( ) {
    std::cout << "No can fly." << std::endl;
 }
+FlyNoWay::~FlyNoWay(){}

@@ -11,3 +11,4 @@ MallardDuck::MallardDuck( ) {
 void MallardDuck::display( ) {
    std::cout << "I’m a real mallard duck" << std::endl;
 }
+ MallardDuck::~MallardDuck(){}

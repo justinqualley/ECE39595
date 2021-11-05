@@ -6,5 +6,6 @@ class MallardDuck : public Duck {
 public:
    MallardDuck( );
    void display( );
+   virtual ~MallardDuck();
 };
 #endif /* MALLARDDUCK_H_ */

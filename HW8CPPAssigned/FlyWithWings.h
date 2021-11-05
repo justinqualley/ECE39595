@@ -5,5 +5,6 @@
 class FlyWithWings : public FlyBehavior {
 public:
    void fly( );
+   virtual ~FlyWithWings();
 };
 #endif /* FLYWITHWINGS_H_ */

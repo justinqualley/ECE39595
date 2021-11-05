@@ -11,3 +11,4 @@ DecoyDuck::DecoyDuck( ) {
 void DecoyDuck::display( ) {
    std::cout << "I’m a decoy duck" << std::endl;
 }
+DecoyDuck::~DecoyDuck(){}
