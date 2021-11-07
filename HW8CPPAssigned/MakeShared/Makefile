@@ -17,7 +17,6 @@ run : $(EXECUTABLE)
 .PHONY : $(EXECUTABLE)
 $(EXECUTABLE) :  $(OBJS)
 	$(CC) $(CFLAGS) -o $(EXECUTABLE) $(OBJS) $(INCLUDE) $(LIBS)
-	./$(EXECUTABLE)
 
 .cpp.o :
 	$(CC) $(CFLAGS) -c $< $(INCLUDE) $(LIBS)

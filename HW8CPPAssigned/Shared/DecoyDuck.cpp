@@ -4,8 +4,8 @@
 #include "MuteQuack.h"
 
 DecoyDuck::DecoyDuck( ) {
-   flyBehavior = shared_ptr<FlyNoWay>(new FlyNoWay( ));
-   quackBehavior = shared_ptr<MuteQuack>(new MuteQuack( ));
+   flyBehavior = shared_ptr<FlyBehavior>(new FlyNoWay( ));
+   quackBehavior = shared_ptr<QuackBehavior>(new MuteQuack( ));
 }
 
 void DecoyDuck::display( ) {

@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
    red->performQuack( );
    red->performFly( );
    red->swim( );
-   red->setFlyBehavior(shared_ptr<FlyNoWay>(new FlyNoWay()));
+   red->setFlyBehavior(shared_ptr<FlyBehavior>(new FlyNoWay()));
    red->performFly( );
 
    decoy->performFly( );
