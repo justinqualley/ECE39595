@@ -2,7 +2,7 @@
 #include <string>
 #include <stdlib.h>
 
-#include "Quicksort.h"
+#include "QuickSort.h"
 
 QuickSort::QuickSort(int numElements) : length(numElements) {
    arr = new int[length];
@@ -13,6 +13,9 @@ QuickSort::QuickSort(int numElements) : length(numElements) {
 
 QuickSort::QuickSort( ) { // this is a delegating constructor!
    QuickSort(0);
+}
+QuickSort::~QuickSort(){
+
 }
 
 void QuickSort::sort( ) {
@@ -64,4 +67,12 @@ int QuickSort::partition(int low, int high) {
    arr[high] = swapTemp;
 
    return pos+1;
+}
+
+void QuickSort::execute(){
+   this->sort();
+}
+
+void QuickSort::identify(){
+   std::cout << this;
 }

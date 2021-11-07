@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
+#include "Command.h"
 
-class QuickSort {
+class QuickSort : public Command {
 private:
    int* arr;
    int length;
@@ -14,7 +15,9 @@ private:
 public:
    QuickSort( );
    QuickSort(int numElements);
-
+   virtual ~QuickSort();
+   void execute();
+   void identify();
    virtual void sort( );
 
    friend std::ostream& operator<<(std::ostream& os, const QuickSort qs);
