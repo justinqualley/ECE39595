@@ -74,5 +74,5 @@ void QuickSort::execute(){
 }
 
 void QuickSort::identify(){
-   std::cout << this;
+   std::cout << *this;
 }

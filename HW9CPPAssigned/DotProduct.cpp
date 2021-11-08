@@ -25,7 +25,7 @@ void DotProduct::execute(){
     this->dot();
 }
 void DotProduct::identify(){
-    std::cout << this;
+    std::cout << *this;
 }
 std::ostream& operator<<(std::ostream& os, const DotProduct dp){
     return os << "inner product on arrays of length " << dp.length << ", result is " << dp.product << "\n\n";

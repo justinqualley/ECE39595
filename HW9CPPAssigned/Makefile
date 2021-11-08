@@ -5,7 +5,7 @@ OBJS = *.cpp
 CC = g++
 INCLUDE = 
 LIBS = 
-CFLAGS = -Wall -std=c++11 -g
+CFLAGS = -Wall -std=c++11 -g -pthread
 VAL = valgrind --tool=memcheck --log-file=vallog --leak-check=full --verbose
 EXECUTABLE = hw9
 COMMANDLINE =

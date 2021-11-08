@@ -9,4 +9,5 @@ private:
 public:
     virtual shared_ptr<Command> get();
     virtual void put(shared_ptr<Command> cmd);
+    virtual vector<shared_ptr<Command>> getQ();
 };
